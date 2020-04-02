@@ -1,0 +1,8 @@
+## Files
+*.bak
+*.swp
+*.orig
+
+## Directories
+node_modules/ 
+tmp/
