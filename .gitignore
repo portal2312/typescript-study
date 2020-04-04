@@ -1,8 +1,11 @@
 ## Files
+..gitignore.un~
+.gitignore~
 *.bak
 *.swp
 *.orig
 
 ## Directories
+dist/
 node_modules/ 
 tmp/
