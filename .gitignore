@@ -4,6 +4,7 @@
 *.bak
 *.swp
 *.orig
+package-lock.json
 
 ## Directories
 dist/
