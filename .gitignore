@@ -1,12 +1,37 @@
-## Files
-..gitignore.un~
-.gitignore~
-*.bak
-*.swp
-*.orig
-package-lock.json
+# directories
+**/.idea/
+**/.cache/
+**/__pycache__/
+**/node_modules/
+**/dist/
+**/media/
+**/temp/
+**/migrations/
 
-## Directories
-dist/
-node_modules/ 
-tmp/
+# file extension
+*.DS_Store
+*.orig
+*.bak
+*.tmp
+*.swp
+*.pyc
+*.pyo
+*.pyd
+*.zip
+*.gz
+*.tgz
+*.tar.gz
+*.tbz2
+*.bz2
+*.tar
+*.msi
+*.dmg
+*.pid
+*.log
+
+# files
+package-lock.json
+debug.ipynb
+
+# etc
+test
