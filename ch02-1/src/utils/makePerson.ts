@@ -1,10 +1,8 @@
 export function makePerson(name: string, age: number) {
-  return {name: name, age: age};
+  return { name, age };
 }
 
 export function testMakePerson() {
-  console.log(
-    makePerson('Jane', 22),
-    makePerson('Jack', 33),
-  );
+  // eslint-disable-next-line no-console
+  console.log(makePerson('Jane', 22), makePerson('Jack', 33));
 }
